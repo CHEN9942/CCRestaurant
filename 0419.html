@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CCRestaurant</title>
+	<link rel="stylesheet" href="3.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	  <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+     <style> body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 800px;
+        height: 400px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body bgcolor="#DC143C">
+<!--top层-->
+	<div class="top">
+	<div class="inner">
+	<div class="top-left">VIP登陆</div>
+	CCRestaurant
+	<div class="top-right">离开</div>
+	</div>
+	</div>
+<!--logo层-->	
+     <div class="logo">
+     	<div class="imgbox">
+        <img src="images/001.jpg" width="100%" height="100%">
+     	</div>
+     </div>
+<!--nav层-->
+<div class="nav">
+	<ul>
+		<li><a href="">招牌菜</a></li>
+		<li><a href="">凉菜</a></li>
+		<li><a href="">热菜</a></li>
+		<li><a href="">主食</a></li>
+		<li><a href="">甜品与饮品</a></li>
+	</ul>
+</div>
+<!--banner层-->
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/002.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/003.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/004.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/005.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/006.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/007.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/011.gif" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/008.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/009.jpg" alt="" height="400" width="800"></div>
+            <div class="swiper-slide"><img src="images/010.jpg" alt="" height="400" width="800"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+ <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+<!--content图片层-->
+<div class="photowall">
+<div class="item"><a href=""><img src="images/012.gif" alt="01"></a></div>
+<div class="item"><a href=""><img src="images/013.gif" alt="02"></a></div>
+<div class="item"><a href=""><img src="images/014.jpg" alt="03"></a></div>
+<div class="item"><a href=""><img src="images/015.jpg" alt="04"></a></div>
+<div class="item"><a href=""><img src="images/016.jpg" alt="05"></a></div>
+<div class="item"><a href=""><img src="images/017.jpg" alt="06"></a></div>
+<div class="item"><a href=""><img src="images/018.jpg" alt="07"></a></div>
+<div class="item"><a href=""><img src="images/019.jpg" alt="08"></a></div>
+</div>
+<!--图文信息层-->
+<div class="content">
+<ul>
+	<li><a href="" style="color:black"><img src="images/020.jpg" alt=""><br>毛血旺
+	<br><span>￥<em>48</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/021.jpg" alt=""><br>鱼香肉丝
+    <br><span>￥<em>25</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/022.jpg" alt=""><br>红烧肉
+    <br><span>￥<em>36</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/023.jpg" alt=""><br>酸菜鱼
+    <br><span>￥<em>58</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/024.jpg" alt=""><br>鱼子酱冰鳐鱼
+    <br><span>￥<em>148</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/025.jpg" alt=""><br>三文鱼寿司
+    <br><span>￥<em>88</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/026.jpg" alt=""><br>香煎法式鹅肝
+    <br><span>￥<em>108</em></span></a></li>
+	<li><a href="" style="color:black"><img src="images/027.jpg" alt=""><br>草莓糯米糍
+    <br><span>￥<em>78</em></span></a></li>
+</ul>
+</div>
+<!--结束显示-->
+<div class="card">
+	<div class="header"><h3>返回菜单</h3></div>
+</div>
+
+<!--底部显示-->
+<div class="bottom">
+	<div class="bottominner">
+	<p>制作信息：计算机系2018151120郭琛</p>
+	<p>网络版权信息：ccccccc@5442</p></div>
+</div>
+<!--返回顶部-->
+<div class="totop"><br><a href="#">点击下单</a></div>	
+</body>
+</html>
